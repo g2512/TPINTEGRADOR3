@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang ="es">
+<head>
+<meta charset ="UTF-8">
+<meta name="viewport" content="width-device-width, initial-scale-1.0">
+<title>Cac Integrador</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <span><img class= "navimg" src="codoacodo.png"></span>
+            <h1>Conf Bs As</h1>
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">La Conferencia</a>
+              <a class="nav-link" href="#">Los Oradores</a>
+              <a class="nav-link" href="#">El lugar y la fecha</a>
+              <a class="nav-link" href="#">Conviertete en orador</a>
+              <a class="nav-link" href="#">Comprar tickets</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+<section class = "Conf">
+  <div class="contflex">
+    <div class="context">
+    <h1>Conf Bs As</h1>
+    <p>Bs As llega por primera vez a la Argentina. Un evento para compartir
+      con nuestra comunidad el conocimiento y experiencia de los
+      expertos que estan creando el futuro de Internet.
+      Ven a conocer a miembros del evento, a otros estudiantes
+      de Codo a Codo y los oradores de primer nivel que tenemos
+      para ti. Te esperamos</p>
+      <div class ="btnes">
+        <a class= "btnquiero" href = "#"><h6>Quiero ser orador</h6></a>
+        <a class= "btncomptick" href = "#"><h6>Comprar Tickets</h6></a>
+      </div>
+      </div>
+  </div>
+</section>
+<section class="oradores">
+  <div class="Titulo">
+    <h6>CONOCE A LOS</h6>
+    <H2>ORADORES</H2>
+  </div>
+  <div class="containeroradores">
+    <div class="card">
+      <img src="steve.jpg">
+      <div class ="descrip">
+        <h6 class="JS">JavaScript</h6>
+        <h6 class="RCT">React</h6>
+      </div>
+      <h3>Steve Jobs</h3>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, voluptatibus!</p>
+    </div>
+    <div class="card">
+      <img src="bill.jpg">
+      <div class ="descrip">
+        <h6 class="JS">JavaScript</h6>
+        <h6 class="RCT">React</h6>
+      </div>
+      <h3>Bill Gates</h3>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, voluptatibus!</p>
+    </div>
+    <div class="card">
+      <img src="ada.jpeg">
+      <div class ="descrip">
+        <h6 class="NGC">Negocios</h6>
+        <h6 class="STP">Startup</h6>
+      </div>
+      <h3>Ada Lovelace</h3>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, voluptatibus!</p>
+    </div>
+  </div>
+
+  </div>
+
+</section>
+<section class="Bsasoct">
+  <div class="containerbsasoct">
+    <img src ="honolulu.jpg">
+      <div class="contbsasoct">
+          <h2>Bs As - Octubre</h2>
+          <p>Buenos Aires es la provincia y localidad más grande
+            del estado de Argentina, en los Estados
+            Unidos Honolulu es la más sureña de entre
+            las principales ciudades estadounidenses. 
+            Aunque el nombre de Honolulu se refiere al area urbana
+            en la costa sureste de la isla de Ohau, la ciudad
+            y el Condado de Honolulu han formado una ciudad
+            condado consolidada que cubre toda la ciudad (aproximadamente 600 km)
+            de superficie       
+            </p>
+          <a ref="#" class="btn btn-transparent">Conocé más</a>
+      </div>
+   </div>
+   </section>
+   <section class="form">
+  <div class="formtit">
+  <h6>CONVIERTETE EN UN</h6>
+  <H2>ORADOR</H2>
+  <H3>Anotate como orador para dar una <span class="underline">charla ignite</span> Cuéntanos de qué quieres hablar! </H3>
+  </div>
+<div class="containerform">
+  <form action="">
+    <div class="firstlastname";>
+    <input type ="text" class ="inputname" name="inputfirstname" placeholder="Nombre" required>
+    <input type ="text" class ="inputname" name="inputlastname" placeholder="Apellido" required>
+  </div>
+    <textarea class="inputabout" name="input" id="" cols="30"rows="6"placeholder="Sobre qué quieres hablar?"></textarea>
+    <h6>Recuerda incluir un título para tu charla</h6>
+    <input class="btnsubmit" type="submit"value="Enviar">
+  </form>
+
+</div>
+</section>     
+<div id="tickets" class="tickets">
+  <div class="container-tickets">
+      <div class="tickets-category">
+          <div class="estudiante">
+              <h3>Estudiante</h3>
+              <h5>Tiene un descuento</h5>
+              <h2>80%</h2>
+              <h6>* presentar documentación</h6>
+          </div>
+          <div class="trainee">
+              <h3>Trainee</h3>
+              <h5>Tiene un descuento</h5>
+              <h2>50%</h2>
+              <h6>* presentar documentación</h6>
+          </div>
+          <div class="junior">
+              <h3>Junior</h3>
+              <h5>Tiene un descuento</h5>
+              <h2>15%</h2>
+              <h6>* presentar documentación</h6>
+          </div>
+
+
+
+<div class="tickets-text">
+  <h6>VENTA</h6>
+  <h1>VALOR DE TICKET $200</h1>
+</div>
+
+
+<form class="ticketsForm" action="">
+  <div class="tickets-form">
+      <input type="text" class="ticketsFirstName" name="Nombre" placeholder="Nombre">
+      <input type="text" class="ticketsLastName" name="Apellido" placeholder="Apellido">
+      <input type="email" class="ticketsEmail" name="Email" placeholder="E-mail">
+      <div class="labelTicketsQuantity">
+          <label for="Cantidad">Cantidad</label>
+          <input id="ticketsQuantity" type="text" class="ticketsQuantity" name="Cantidad"
+              placeholder="Cantidad">
+      </div>
+      <div class="labelTicketsCategory">
+          <label for="Categoria">Categoria</label>
+          <select name="Categoria" class="ticketsCategory">
+            <option value="Sinctegoria">Sin Categoría</option>  
+            <option value="Estudiante">Estudiante</option>
+              <option value="Trainee">Trainee</option>
+              <option value="Junior">Junior</option>
+          </select>
+      </div>
+      <output class="ticketsOutput"><span class="ticketsValue">Total a pagar: </span><!--<span class="ticketsBuy">Comprar</span>--></output>
+      <button id="ticketsBorrar" type="reset" class="btnTickets" name="Borrar">Borrar</button>
+      <button id="ticketsResumen" class="btnTickets" name="Resumen">Resumen</button>
+  </div>
+</form>
+
+</div>
+</div>
+<footer class="footer">
+  <div class ="containerfooter">
+<a class="footerit" href="#">Preguntas Frecuentes</a>
+<a class="footerit" href="#">Contactanos</a>
+<a class="footerit" href="#">Prensa</a>
+<a class="footerit" href="#">Conferencias</a>
+<a class="footerit" href="#">Términos y condiciones</a>
+<a class="footerit" href="#">Privacidad</a>
+<a class="footerit" href="#">Estudiantes  </a>
+</div>
+</footer>
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
